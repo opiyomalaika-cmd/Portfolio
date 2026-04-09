@@ -1,0 +1,72 @@
+/* CSS HEX */
+--lavender: #cfcfeaff;
+--lilac-ash: #a89b9dff;
+--taupe: #816c61ff;
+--ebony: #575a4bff;
+--charcoal-brown: #2a2c24ff;
+
+/* CSS HSL */
+--lavender: hsla(240, 39%, 86%, 1);
+--lilac-ash: hsla(351, 7%, 63%, 1);
+--taupe: hsla(21, 14%, 44%, 1);
+--ebony: hsla(72, 9%, 32%, 1);
+--charcoal-brown: hsla(75, 10%, 16%, 1);
+
+/* SCSS HEX */
+$lavender: #cfcfeaff;
+$lilac-ash: #a89b9dff;
+$taupe: #816c61ff;
+$ebony: #575a4bff;
+$charcoal-brown: #2a2c24ff;
+
+/* SCSS HSL */
+$lavender: hsla(240, 39%, 86%, 1);
+$lilac-ash: hsla(351, 7%, 63%, 1);
+$taupe: hsla(21, 14%, 44%, 1);
+$ebony: hsla(72, 9%, 32%, 1);
+$charcoal-brown: hsla(75, 10%, 16%, 1);
+
+/* SCSS RGB */
+$lavender: rgba(207, 207, 234, 1);
+$lilac-ash: rgba(168, 155, 157, 1);
+$taupe: rgba(129, 108, 97, 1);
+$ebony: rgba(87, 90, 75, 1);
+$charcoal-brown: rgba(42, 44, 36, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-right: linear-gradient(90deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-bottom: linear-gradient(180deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-left: linear-gradient(270deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-top-right: linear-gradient(45deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-bottom-right: linear-gradient(135deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-top-left: linear-gradient(225deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-bottom-left: linear-gradient(315deg, #cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+$gradient-radial: radial-gradient(#cfcfeaff, #a89b9dff, #816c61ff, #575a4bff, #2a2c24ff);
+
+.nav-links a.active {
+  color: var(--lavender);
+}
+
+.page-hero {
+  padding: 4rem 0 2.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.compact-hero {
+  min-height: auto;
+}
+
+.page-title {
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  max-width: 900px;
+}
+
+.page-subtitle {
+  margin-top: 1rem;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 1rem;
+}
